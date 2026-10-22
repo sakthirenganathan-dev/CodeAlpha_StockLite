@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Production Builds
+dist/
+build/
+*.egg-info/
+
+# Environment Variables & Secrets (Never commit secrets)
+.env
+.env.local
+.env.*.local
+*.log
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

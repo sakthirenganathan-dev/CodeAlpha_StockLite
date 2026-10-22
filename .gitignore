@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+**/node_modules/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+**/.pytest_cache/
+
+# Production build artifacts
+dist/
+**/dist/
+build/
+**/build/
+
+# Local Environment Variables & Secrets
+.env
+**/.env
+.env.local
+.env.*.local
+*.log
+
+# System & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
